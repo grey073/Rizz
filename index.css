@@ -1,0 +1,154 @@
+body {
+  font-size: 40px;
+  font-family: cursive;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("bg.jpg"); 
+  background-size: cover;                 /* fills the entire screen */
+  background-position: center;            /* keeps image centered */
+  background-repeat: no-repeat; 
+  
+}
+
+.container {
+  text-align: center;
+}
+
+#name {
+  margin-bottom: 20px;
+}
+
+#text {
+  height: 40px;
+  width: 220px;
+  font-size: 20px;
+  font-family: cursive;
+  
+}
+#text,
+button {
+  display: block;
+  margin: 10px auto;
+}
+
+
+button {
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(230, 112, 191);
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  font-family:monospace;
+  cursor: pointer;
+}
+button:hover{
+  background-color:rgb(236, 148, 207) ;
+}
+
+
+input[type="radio"] {
+  margin: 0 10px;
+  transform: scale(1.5);
+}
+marquee{
+  text-align: end;
+}
+#disclaimer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffe6f0;
+  color: #ff69b4;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 2px dashed #ff99cc;
+ 
+}
+.letter {
+  background-color: #fff0f5;
+  border: 2px dashed #ff8fc4;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 0 30px rgba(255, 183, 222, 0.5);
+  text-align: center;
+}
+
+#ask, #asks, #response {
+  margin: 20px 0;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+#disclaimer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffe6f0;
+  color: #ff69b4;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: 2px dashed #ff99cc;
+}
+
+button {
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-family: monospace;
+  background-color: #ffb3d1;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffa1c5;
+}
+.letter {
+  background-color: #fff0f5;
+  border: 2px dashed #ff8fc4;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 0 30px rgba(255, 183, 222, 0.5);
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-family: monospace;
+  background-color: #ffb3d1;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffa1c5;
+}
+
+/* fix button group */
+.letter > div:last-of-type {
+  margin-top: 20px;
+}
+
+
