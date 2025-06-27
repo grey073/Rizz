@@ -13,14 +13,18 @@ const rizzLines  = [
   "That no sounded shaky. Want me to press against you and ask again?"
 ];
 function sayYes() {
-  document.body.innerHTML = `
-    <div class="container">
-      <h2>OMG really?? 😳💗</h2>
-      <p>i’m actually blushing so hard rn… I’ll stop smiling when my face breaks 😭</p>
-      <p>you're so cute i’m gonna start kicking my feet fr 😩</p>
+   document.getElementById("replace").innerHTML = `
+    <div class="envelope">
+      <div class="flap"></div>
+      <div class="letter-content">
+        <p>OMG really?? 😳💗</p>
+        <p>i’m actually blushing so hard rn…</p>
+        <p>I’ll stop smiling when my face breaks 😭</p>
+        <p>you’re so cute i’m gonna start kicking my feet fr 😩</p>
       </div>
-      
-  `;}
+    </div>
+  `;
+}
 function sayNo(){
 
   const random = rizzLines[Math.floor(Math.random() * rizzLines.length)];
