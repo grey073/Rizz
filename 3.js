@@ -13,7 +13,7 @@ const rizzLines  = [
   "That no sounded shaky. Want me to press against you and ask again?"
 ];
 function sayYes() {
-  document.getElementById("replace").innerHTML = `
+  document.body.innerHTML = `
     <div class="envelope-wrapper">
       <div class="flap"></div>
       <div class="envelope">
