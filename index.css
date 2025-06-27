@@ -194,5 +194,56 @@ button:hover {
 @keyframes fadeInLetter {
   to { opacity: 1; }
 }
+.envelope-wrapper {
+  position: relative;
+  width: 300px;
+  height: 220px;
+  margin: 60px auto;
+}
+
+.envelope {
+  width: 100%;
+  height: 100%;
+  background: #ffe4ec;
+  position: relative;
+  border: 2px solid #ff9acb;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ffb6d9;
+  overflow: hidden;
+  z-index: 1;
+  animation: openEnvelope 1s ease-out forwards;
+}
+
+.flap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: #ffcce5;
+  transform-origin: top center;
+  animation: openFlap 1s ease-out forwards;
+  z-index: 2;
+  border-bottom: 2px solid #ff9acb;
+  border-radius: 0 0 50% 50%;
+}
+
+.letter-content {
+  opacity: 0;
+  padding: 20px;
+  font-family: 'Cursive';
+  font-size: 16px;
+  color: #c70085;
+  animation: fadeInLetter 1.2s ease-in 1s forwards;
+}
+
+@keyframes openFlap {
+  0% { transform: rotateX(0); }
+  100% { transform: rotateX(180deg); }
+}
+
+@keyframes fadeInLetter {
+  to { opacity: 1; }
+}
 
 
