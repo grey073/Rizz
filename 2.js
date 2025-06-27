@@ -12,7 +12,7 @@ const rizzLines = [
   "Don’t act shy — you look like you'd moan just from my breath on your neck 😌"
 ];
 function sayYes() {
-  document.getElementById("replace").innerHTML = `
+  document.body.innerHTML = `
     <div class="envelope-wrapper">
       <div class="flap"></div>
       <div class="envelope">
