@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("bg.jpg"); 
+  background-image: url("bg.png"); 
   background-size: cover;                 /* fills the entire screen */
   background-position: center;            /* keeps image centered */
   background-repeat: no-repeat; 
@@ -243,5 +243,6 @@ button:hover {
 @keyframes fadeInLetter {
   to { opacity: 1; }
 }
+
 
 
